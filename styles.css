@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0
+}
+
+body {
+    background-color: hsl(212, 45%, 89%);
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+     font-style: normal;
+
+}
+
+.container {
+    border: 2px solid white;
+    background-color: white;
+    width: 350px;
+    margin: 100px auto;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 4px 4px 20px 7px rgba(100, 98, 98, 0.43);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px
+}
+
+.container img {
+    width: 90%;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+
+.container h2,
+p {
+    text-align: center;
+}
+
+.container p {
+    padding-bottom: 40px;
+}
+
+/* Small Tablets */
+@media (min-width: 576px) and (max-width: 767px) {
+    .container {
+        width: 80%;
+    }
+}
+
+/* Tablets */
+@media (min-width: 768px) and (max-width: 991px) {
+    .container {
+        width: 70%;
+        max-width: 500px;
+    }
+
+    .container img {
+        width: 90%;
+        
+    }
+}
+
+/* Small Desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .container {
+        width: 60%;
+        max-width: 500px;
+    }
+
+    .container img {
+        width: 90%;
+        padding-top:20px;
+    }
+}
+
+/* Desktops */
+@media (min-width: 1200px) and (max-width: 1599px) {
+    .container {
+        width: 50%;
+        max-width: 500px;
+    }
+
+    .container img {
+        width: 90%;
+        padding-top:30px;
+    }
+}
+
+/* Large Desktops */
+@media (min-width: 1600px) {
+    .container {
+        width: 40%;
+        max-width: 500px;
+    }
+
+    .container img {
+        width: 90%;
+        padding-top:40px
+    }
+}
