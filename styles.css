@@ -30,7 +30,8 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 25px
+    gap: 25px;
+    
 }
 
 .container img {
@@ -45,6 +46,9 @@ p {
 }
 
 .container p {
+    font-weight:400;
     padding-bottom: 40px;
 }
+.container h2{
+    font-weight:700;
 
